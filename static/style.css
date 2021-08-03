@@ -85,6 +85,28 @@ textarea:focus {
   margin-top: 5px;
 }
 
+.voice-comands {
+  font-size: 24px;
+  width: 30%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.voice {
+  height: 90%;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+.voice:hover {
+  cursor: pointer;
+}
+.voice:active {
+  transform: scale(90%);
+  color: blue;
+}
+
 @media screen and (max-width: 992px) {
   .container {
     width: 300px;
